@@ -1,5 +1,4 @@
-#ifndef EVENTDISPATCHER_HH
-#define EVENTDISPATCHER_HH
+#pragma once
 
 #include<list>
 #include<string>
@@ -45,5 +44,3 @@ class EventDispatcher
 	std::list<EventReceiver<T>*> receivers;
 
 };
-
-#endif

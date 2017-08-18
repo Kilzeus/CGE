@@ -1,5 +1,4 @@
-#ifndef MANAGER_HH
-#define MANAGER_HH
+#pragma once
 
 #include<map>
 
@@ -22,4 +21,3 @@ namespace Utilities
 		}	
 	};
 }
-#endif

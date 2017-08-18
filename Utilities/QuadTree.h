@@ -1,5 +1,4 @@
-#ifndef QUADTREE_HH
-#define QUADTREE_HH
+#pragma once
 
 //left handed coordinates
 template<typename X, typename T>
@@ -76,5 +75,3 @@ class QuadTree
 	}
 	
 };
-
-#endif

@@ -1,6 +1,3 @@
-#ifndef DEFINITIONS_HH
-#define DEFINITIONS_HH
+#pragma once
 
 typedef unsigned int UINT;
-
-#endif

@@ -1,5 +1,4 @@
-#ifndef BASEEXCEPTION_HH
-#define BASEEXCEPTION_HH
+#pragma once
 
 #include<string>
 
@@ -26,5 +25,3 @@ class BaseException
 	};
 	
 };
-
-#endif

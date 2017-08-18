@@ -1,5 +1,4 @@
-#ifndef MYLOGGER_HH
-#define MYLOGGER_HH
+#pragma once
 
 #include"Singleton.h"
 #include<fstream>
@@ -12,5 +11,3 @@ public:
 	void logEntry( std::string type, std::string description );
 	void close();
 };
-
-#endif

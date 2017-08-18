@@ -1,5 +1,4 @@
-#ifndef NAMED_HH
-#define NAMED_HH
+#pragma once
 
 #include<string>
 
@@ -15,5 +14,3 @@ class Named
 	std::string name;
 	
 };
-
-#endif

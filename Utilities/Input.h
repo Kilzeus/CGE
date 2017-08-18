@@ -1,5 +1,8 @@
-#ifndef INPUT_HHH
-#define INPUT_HHH
+#pragma once
+
+#include<glm\glm.hpp>
+#include"EventDispatcher.h"
+#include<Windows.h>
 
 struct InputEvent
 {
@@ -17,7 +20,7 @@ struct InputEvent
 
 };
 
-class Input : public EventDispatcher<InputEvent>, public Singleton<Input>
+class Input : public EventDispatcher<InputEvent>
 {
 
 	public:
@@ -28,12 +31,9 @@ class Input : public EventDispatcher<InputEvent>, public Singleton<Input>
 	
 	private:
 	
-	XMFLOAT2 mouseDelta;
-	XMFLOAT2 absoluteMousePosition;
+	glm::vec2 mouseDelta;
+	glm::vec2 absoluteMousePosition;
 	bool MouseKeyDown[3];
 	HKL keyBoardLayout;
 	
 };
-
-
-#endif

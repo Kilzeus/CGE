@@ -1,5 +1,4 @@
-#ifndef SINGLETONJ_HH
-#define SINGLETONJ_HH
+#pragma once
 
 template<typename T>
 class Singleton
@@ -22,5 +21,3 @@ class Singleton
 
 template<typename T>
 T* Singleton<T>::instance = 0;
-
-#endif

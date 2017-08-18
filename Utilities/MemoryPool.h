@@ -1,5 +1,4 @@
-#ifndef MEMORYPOOL_HH
-#define MEMORYPOOL_HH
+#pragma once
 
 #include<new>
 #include<vector>
@@ -39,5 +38,3 @@ class MemoryPool
 	void deallocate( void* p );
 
 };
-
-#endif
