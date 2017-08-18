@@ -1,175 +1,162 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Core">
-      <UniqueIdentifier>{0b4e8d4f-057f-42a0-8db2-5a1561520985}</UniqueIdentifier>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
-    <Filter Include="Core\GPU Resources">
-      <UniqueIdentifier>{203ee5a0-ae2d-46ba-9f64-744cfd7ab286}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Rendering framework">
+    <Filter Include="Header Files">
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
     </Filter>
-    <Filter Include="Rendering framework\Material system">
-      <UniqueIdentifier>{8bda6c39-081a-4079-8090-a9b4efcd5749}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Core\Window">
-      <UniqueIdentifier>{c3edec22-58e2-4e68-bad6-0b48178fbedd}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Rendering framework\Effects framework">
-      <UniqueIdentifier>{cd3cad0b-297e-41c1-b37e-2f4d2ebf1690}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Rendering framework\Sprite system">
-      <UniqueIdentifier>{d422249a-512e-447a-99cb-27dd919985d8}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Core\Shaders">
-      <UniqueIdentifier>{9044a993-8ced-45d4-bdc8-42eede51f635}</UniqueIdentifier>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="MaterialProperty.cpp">
-      <Filter>Rendering framework\Material system</Filter>
-    </ClCompile>
-    <ClCompile Include="IndexBuffer.cpp">
-      <Filter>Core\GPU Resources</Filter>
-    </ClCompile>
-    <ClCompile Include="VertexBuffer.cpp">
-      <Filter>Core\GPU Resources</Filter>
-    </ClCompile>
-    <ClCompile Include="InstanceBuffer.cpp">
-      <Filter>Core\GPU Resources</Filter>
-    </ClCompile>
-    <ClCompile Include="Texture.cpp">
-      <Filter>Core</Filter>
-    </ClCompile>
-    <ClCompile Include="VertexFormat.cpp">
-      <Filter>Core</Filter>
-    </ClCompile>
-    <ClCompile Include="VertexElement.cpp">
-      <Filter>Core</Filter>
-    </ClCompile>
-    <ClCompile Include="RenderWindow.cpp">
-      <Filter>Core\Window</Filter>
+    <ClCompile Include="DeferredRenderer.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="RenderQueue.cpp">
-      <Filter>Rendering framework</Filter>
+      <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="RenderOperation.cpp">
-      <Filter>Rendering framework</Filter>
-    </ClCompile>
-    <ClCompile Include="Material.cpp">
-      <Filter>Rendering framework\Material system</Filter>
-    </ClCompile>
-    <ClCompile Include="RenderEffect.cpp">
-      <Filter>Rendering framework\Effects framework</Filter>
-    </ClCompile>
-    <ClCompile Include="EffectLoader.cpp">
-      <Filter>Rendering framework\Effects framework</Filter>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="EffectGroup.cpp">
-      <Filter>Rendering framework\Effects framework</Filter>
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectLoader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IndexBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InstanceBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Material.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MaterialProperty.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderEffect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderOperation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderWindow.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Sprite.cpp">
-      <Filter>Rendering framework\Sprite system</Filter>
+      <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="SpriteBatch.cpp">
-      <Filter>Rendering framework\Sprite system</Filter>
+      <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="DeferredRenderer.cpp">
-      <Filter>Rendering framework</Filter>
+    <ClCompile Include="VertexBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexElement.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexFormat.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="VertexShader.cpp">
-      <Filter>Core\Shaders</Filter>
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Material.h">
-      <Filter>Rendering framework\Material system</Filter>
-    </ClInclude>
-    <ClInclude Include="MaterialProperty.h">
-      <Filter>Rendering framework\Material system</Filter>
-    </ClInclude>
-    <ClInclude Include="RenderOperation.h">
-      <Filter>Rendering framework</Filter>
-    </ClInclude>
-    <ClInclude Include="RenderState.h">
-      <Filter>Rendering framework</Filter>
-    </ClInclude>
-    <ClInclude Include="RenderContext.h">
-      <Filter>Core</Filter>
-    </ClInclude>
-    <ClInclude Include="Types.h">
-      <Filter>Core</Filter>
-    </ClInclude>
-    <ClInclude Include="Device.h">
-      <Filter>Core</Filter>
-    </ClInclude>
-    <ClInclude Include="GPUBuffer.h">
-      <Filter>Core\GPU Resources</Filter>
-    </ClInclude>
-    <ClInclude Include="IndexBuffer.h">
-      <Filter>Core\GPU Resources</Filter>
-    </ClInclude>
-    <ClInclude Include="VertexBuffer.h">
-      <Filter>Core\GPU Resources</Filter>
-    </ClInclude>
-    <ClInclude Include="Core.h">
-      <Filter>Core</Filter>
-    </ClInclude>
-    <ClInclude Include="InstanceBuffer.h">
-      <Filter>Core\GPU Resources</Filter>
-    </ClInclude>
-    <ClInclude Include="RenderTargetView.h">
-      <Filter>Core</Filter>
-    </ClInclude>
-    <ClInclude Include="Texture.h">
-      <Filter>Core</Filter>
-    </ClInclude>
-    <ClInclude Include="VertexFormat.h">
-      <Filter>Core</Filter>
-    </ClInclude>
-    <ClInclude Include="VertexElement.h">
-      <Filter>Core</Filter>
-    </ClInclude>
-    <ClInclude Include="RenderWindow.h">
-      <Filter>Core\Window</Filter>
+    <ClInclude Include="DeferredRenderer.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="RenderQueue.h">
-      <Filter>Rendering framework</Filter>
+      <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="RenderEffect.h">
-      <Filter>Rendering framework\Effects framework</Filter>
+    <ClInclude Include="Texture.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="EffectLoader.h">
-      <Filter>Rendering framework\Effects framework</Filter>
+    <ClInclude Include="VertexFormat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Core.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Device.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="EffectGroup.h">
-      <Filter>Rendering framework\Effects framework</Filter>
+      <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="SpriteBatch.h">
-      <Filter>Rendering framework\Sprite system</Filter>
-    </ClInclude>
-    <ClInclude Include="Sprite.h">
-      <Filter>Rendering framework\Sprite system</Filter>
-    </ClInclude>
-    <ClInclude Include="DeferredRenderer.h">
-      <Filter>Rendering framework</Filter>
-    </ClInclude>
-    <ClInclude Include="VertexShader.h">
-      <Filter>Core\Shaders</Filter>
-    </ClInclude>
-    <ClInclude Include="GeometryShader.h">
-      <Filter>Core\Shaders</Filter>
+    <ClInclude Include="EffectLoader.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="FragmentShader.h">
-      <Filter>Core\Shaders</Filter>
+      <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="TessellationEvaluationShader.h">
-      <Filter>Core\Shaders</Filter>
+    <ClInclude Include="GeometryShader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GPUBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IndexBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InstanceBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MaterialProperty.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderContext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderEffect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderOperation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderTargetView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteBatch.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="TessellationControlShader.h">
-      <Filter>Core\Shaders</Filter>
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TessellationEvaluationShader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexElement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexShader.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

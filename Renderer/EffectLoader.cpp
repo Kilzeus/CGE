@@ -1,6 +1,5 @@
 #include"EffectLoader.h"
 #include"VertexShader.h"
-#include"tinyxml.h"
 #include<Windows.h>
 
 using namespace RenderFramework;
